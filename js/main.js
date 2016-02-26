@@ -1,7 +1,11 @@
-var Letter = prompt('Enter a letter');
+var letter = prompt('Enter a letter');
 
-if (Letter = 'a'){
+if (letter == 'a') {
   document.write('a');
- } else{
+  document.write('<br>');
+}
 
+for (counter = 0; counter < 10; counter++) {
+  document.write('a');
+  document.write('<br>');
 }
